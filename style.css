@@ -1,0 +1,49 @@
+body {
+    background-color: darkgray;
+    margin: none;
+    padding: none;
+    background-image: url("images/crowd.jpg");
+    background-size: 100%;
+}
+
+
+.header {
+    min-height: 200px;
+}
+
+
+.container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.key {
+    display: inline-block;
+    width: 30px;
+    padding: 12px 20px 12px 20px;
+    margin: 6px;
+    font-family: 'Bree Serif', 'serif';
+    font-size: 25px;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 0px 0px 5px black;
+    transition: all 0.05s;
+    line-height: 20px;
+}
+
+
+.active {
+    transform: scale(1.1);
+    border: 2px solid orange;
+    box-shadow: 0px 0px 10px black;
+    margin: 5px;
+}
+
+
+.label {
+    font-size: 12px;
+    padding: none;
+    text-align: center;
+}
